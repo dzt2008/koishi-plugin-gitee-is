@@ -1,5 +1,28 @@
 {
+  "name": "koishi-plugin-gitee-is",
+  "description": "gitee-issues",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gitee",
+    "koishi",
+    "plugin"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "实时推送 * 非自己 * 的gitee issues的插件，支持自定义仓库和推送内容，包括评论等，适合需要监控gitee项目动态的用户使用。"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  },
   "dependencies": {
-    "koishi-plugin-count-group-name": "^0.0.1"
+    "date-fns": "^4.1.0"
   }
 }
